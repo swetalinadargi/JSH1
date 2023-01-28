@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+         background-color: antiquewhite;
+    }
+ </style>
+<body>
+   <h1 style="color: crimson; text-align: center;"> OPERATORS AND EXPRESSIONS </h1>
+     <p> Q1:Add two Numbers  </p> 
+      <p>  Ans: 
+        const AddTwoNumbers = (a,b) => {
+            let c = a+b;
+            return c;
+        };
+      </p>   
+      <p> Q2:Find if the conditions are obeyed or not?  </p> 
+      <p>  Ans: 
+        const Is_Valid = (a,b) => {
+            return(a<10) && (a>b);
+          };  
+      </p>  
+      <p> Q3:Check the conditons  </p> 
+      <p>  Ans: 
+                const Check = (A, B) => 
+                {
+                    return (A%10===0) || (B%10===0);
+                };
+     </p>  
+      <p> Q4:Find the first digit of a 4 digit number</p> 
+      <p>  Ans: 
+        const First_Digit = (n) => {
+            return Math.floor(n/1000);
+          }; 
+      </p>  
+      <p> Q5:Find the last digit of a 4 digit number  </p> 
+      <p>  Ans: 
+        const Last_Digit = (n) => {
+            let lastdigit;
+            lastdigit=n%10;
+            return lastdigit;
+        };
+      </p> 
+      <p> Q6:Find the remainder  </p> 
+      <p>  Ans: 
+        const Find_the_remainder = (a,b) => {
+            let reminder = b%a;
+            return reminder;
+        }; 
+      </p>   
+      <p> Q7:Multipy two Numbers  </p> 
+      <p>  Ans: 
+        const Multiply_two_number = (a,b) => {
+            let multy = a*b;
+            return multy;
+        };
+      </p>  
+      <p> Q8:Marks Calculator  </p> 
+      <p>  Ans: 
+              const Sum = (A, B, C) => 
+              {
+              return A+B+C;
+              };
+
+             const Average = (A, B, C) => 
+             {
+            return((A+B+C)/3);
+            };
+
+       </p>    
+</body>
+</html>
